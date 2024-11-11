@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+   background-image: url("./lib/superover-bg.png");
+   background-size: cover;
+   color: white;
+   font-family:sans-serif;
+}
+.SuperOver{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+.india{
+    background-color: rgb(85, 85, 201);
+    display: inline-block;
+    padding: 40px;
+    border-radius: 7px;
+    text-align: center;
+}
+.pak{
+    background-color: rgb(108, 216, 108);
+    display: inline-block;
+    padding: 40px;
+    border-radius: 7px;
+    text-align: center;
+}
+.india>h1,.pak>h1{
+    font-size: 80px;
+}
+.teams{
+    display: flex;
+    justify-content: center;
+    gap: 30px; 
+}
+.button{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    padding: 40px;
+    margin-top: 40px;
+}
+.ball {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 5px;
+    color: black;
+}
+.india>p,.pak>p{
+    font-weight: bold;
+    font-size: 40px;
+}
